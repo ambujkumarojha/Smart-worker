@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Workers</title>
+ 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="container">
+        <header>
+            <h1>Welcome to Smart Workers</h1>
+        </header>
+        <main>
+            <p>We are delighted to have you here. Our organization is committed to making a difference and achieving excellence in all we do.
+                Passionate and experienced freelance web designer specializing in creating visually appealing and user-friendly websites,
+                 Proficient in HTML, CSS, JavaScript, and responsive design. Dedicated to delivering high-quality work on time.
+            </p>
+            <button id="contactButton">Contact Us</button>
+        </main>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
